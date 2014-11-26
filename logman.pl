@@ -18,9 +18,11 @@ exit 0;
 }
 
 # Считываем из конфига значения (сделать)
-my $continue = 1;
-$SIG{TERM} = sub { $continue = 0 };
 
+# Just template
+# my $continue = 1;
+# $SIG{TERM} = sub { $continue = 0 };
+# 
 # while ($continue) {
 # 	
 # }
